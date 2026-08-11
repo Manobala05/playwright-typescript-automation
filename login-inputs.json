@@ -1,0 +1,92 @@
+[
+  {
+    "outerHTML": "<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"kUSJbzUpDBrGaXxrGRZp6R0cOjFUft6Y20YqcbU8OVWS56q6TIThUjm7QdtxBCnH\">",
+    "name": "csrfmiddlewaretoken",
+    "id": "",
+    "placeholder": "",
+    "type": "hidden",
+    "dataQa": null,
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"email\" data-qa=\"login-email\" placeholder=\"Email Address\" name=\"email\" value=\"\" required=\"\">",
+    "name": "email",
+    "id": "",
+    "placeholder": "Email Address",
+    "type": "email",
+    "dataQa": "login-email",
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"password\" data-qa=\"login-password\" placeholder=\"Password\" name=\"password\" value=\"\" required=\"\">",
+    "name": "password",
+    "id": "",
+    "placeholder": "Password",
+    "type": "password",
+    "dataQa": "login-password",
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"kUSJbzUpDBrGaXxrGRZp6R0cOjFUft6Y20YqcbU8OVWS56q6TIThUjm7QdtxBCnH\">",
+    "name": "csrfmiddlewaretoken",
+    "id": "",
+    "placeholder": "",
+    "type": "hidden",
+    "dataQa": null,
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"text\" data-qa=\"signup-name\" placeholder=\"Name\" name=\"name\" value=\"\" required=\"\">",
+    "name": "name",
+    "id": "",
+    "placeholder": "Name",
+    "type": "text",
+    "dataQa": "signup-name",
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"email\" data-qa=\"signup-email\" placeholder=\"Email Address\" name=\"email\" value=\"\" required=\"\">",
+    "name": "email",
+    "id": "",
+    "placeholder": "Email Address",
+    "type": "email",
+    "dataQa": "signup-email",
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"hidden\" name=\"form_type\" value=\"signup\">",
+    "name": "form_type",
+    "id": "",
+    "placeholder": "",
+    "type": "hidden",
+    "dataQa": null,
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"kUSJbzUpDBrGaXxrGRZp6R0cOjFUft6Y20YqcbU8OVWS56q6TIThUjm7QdtxBCnH\">",
+    "name": "csrfmiddlewaretoken",
+    "id": "",
+    "placeholder": "",
+    "type": "hidden",
+    "dataQa": null,
+    "ariaLabel": null,
+    "label": null
+  },
+  {
+    "outerHTML": "<input type=\"email\" id=\"susbscribe_email\" required=\"\" placeholder=\"Your email address\">",
+    "name": "",
+    "id": "susbscribe_email",
+    "placeholder": "Your email address",
+    "type": "email",
+    "dataQa": null,
+    "ariaLabel": null,
+    "label": null
+  }
+]
