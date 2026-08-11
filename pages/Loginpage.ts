@@ -9,8 +9,8 @@ export class Loginpage extends BasePage {
     readonly loginButton: Locator;
     readonly logoutButton: Locator;
     readonly errorMessage: Locator;
-    //learning git
 
+    //learning
     constructor(page: Page) {
         super(page);
         
