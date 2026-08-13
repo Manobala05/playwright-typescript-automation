@@ -9,7 +9,7 @@ export class BasePage {
         this.page.setDefaultTimeout(60000);
         this.page.setDefaultNavigationTimeout(60000);
     }
-
+//change in branch
     async click(locator: Locator) {
        await locator.click();
     }

@@ -10,7 +10,8 @@ export class Loginpage extends BasePage {
     readonly logoutButton: Locator;
     readonly errorMessage: Locator;
 
-    //learning
+    //to check change in master
+
     constructor(page: Page) {
         super(page);
         
@@ -88,4 +89,3 @@ export class Loginpage extends BasePage {
         await expect(this.errorMessage).toBeVisible();
     }
 }
-
