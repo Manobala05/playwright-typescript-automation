@@ -10,7 +10,7 @@ export class Loginpage extends BasePage {
     readonly logoutButton: Locator;
     readonly errorMessage: Locator;
 
-    //to check change in master
+    //to check change in branch1
 
     constructor(page: Page) {
         super(page);
