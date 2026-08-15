@@ -16,6 +16,6 @@ test("verify user can add produts to cart", async ({ productPage }) => {
 test("verify user can proceed to checkout and place order", async ({ productPage }) => {
     await productPage.clickPoloProduct();
     await productPage.selectingTheProduct(index);
-    await productPage.AddingProductCartandProceedcheckout();
+    await productPage.AddingProductToCart();
 });
     

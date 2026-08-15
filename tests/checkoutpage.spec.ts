@@ -22,7 +22,7 @@ test("verifyuserCanPlaceTheOrder", async ({
 
     await productPage.selectingTheProduct(0);
 
-    await productPage.AddingProductCartandProceedcheckout();
+    await productPage.AddingProductToCart();
 
     await cartPage.verufyProductsAreAdded();
 

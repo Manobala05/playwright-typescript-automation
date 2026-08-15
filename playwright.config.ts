@@ -8,21 +8,23 @@ export default defineConfig({
 
     testDir: './tests',
 
-    fullyParallel: true,
+    fullyParallel: false,
 
     forbidOnly: false,
 
     retries: 0,
 
-    workers: undefined,
+    workers: 1,
 
     reporter: 'html',
 
+    timeout: 60000,
+
     use: {
         baseURL: process.env.BASE_URL,
-        headless: false,
+        headless: true,
         trace: 'on-first-retry',
-        fullyParallel: 'true',
+
     },
 
     projects: [

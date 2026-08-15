@@ -20,7 +20,6 @@ export class productpage extends BasePage {
    readonly productname:Locator;
 
    
-    
 
 
     constructor (page: Page){
@@ -67,9 +66,15 @@ async selectingTheProduct(index:number) {
 }
 
 
-async AddingProductCartandProceedcheckout(){
-        await this.clickcartbutton.click();
-       // await this.checkoutbutton.click();
+async AddingProductToCart() {
+
+    // Click Cart
+    await this.click(this.clickcartbutton);
+
+    // Wait for Cart page to load
+    await this.page.waitForLoadState('load');
+
+    console.log("Clicked Cart");
 }
 
 

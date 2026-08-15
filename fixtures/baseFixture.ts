@@ -22,7 +22,7 @@ export const test = base.extend<MyFixtures>({
     },
 
     productPage: async ({ page }, use) => {
-        await page.goto("/")
+        await page.goto("/", { waitUntil: "domcontentloaded" });
         await use(new productpage(page));
     },
 
